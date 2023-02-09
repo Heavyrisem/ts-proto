@@ -60,6 +60,7 @@ export type Options = {
   returnObservable: boolean;
   lowerCaseServiceMethods: boolean;
   nestJs: boolean;
+  nestjsDecorator: boolean;
   env: EnvOption;
   unrecognizedEnum: boolean;
   exportCommonSymbols: boolean;
@@ -107,6 +108,7 @@ export function defaultOptions(): Options {
     metadataType: undefined,
     addNestjsRestParameter: false,
     nestJs: false,
+    nestjsDecorator: false,
     env: EnvOption.BOTH,
     unrecognizedEnum: true,
     exportCommonSymbols: true,

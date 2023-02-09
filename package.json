@@ -1,9 +1,9 @@
 {
-  "name": "ts-proto",
-  "version": "1.139.0",
+  "name": "@heavyrisem/ts-proto",
+  "version": "1.139.2",
   "description": "",
   "main": "build/plugin.js",
-  "repository": "github:stephenh/ts-proto",
+  "repository": "github:heavyrisem/ts-proto",
   "bin": {
     "protoc-gen-ts_proto": "./protoc-gen-ts_proto"
   },
